@@ -80,5 +80,6 @@ public class Robot extends TimedRobot {
 
   @Override
   public void testPeriodic() {
+    System.out.print(Robot.oi.mote.getTilt());
   }
 }
